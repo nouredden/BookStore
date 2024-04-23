@@ -21,3 +21,69 @@ ul {
 a {
     text-decoration: none;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f0f0f;
+}
+
+/* navbar style start */
+nav {
+    background-color: aquamarine;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+/* navbar style end */
+main {
+    display: flex;
+    padding: 0 5vw;
+}
+
+/* aside style start */
+aside {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+/* aside style end */
+
+/* container style start */
+.container {
+    background-color: blueviolet;
+    width: 70vw;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: scroll;
+}
+
+/* container style end */
+
+/* footer style start */
+footer {
+    background-color: darkcyan;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+}
+
+.foot {
+    width: 30vw;
+}
+
+/* footer style end */
